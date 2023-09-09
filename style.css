@@ -1,0 +1,94 @@
+body {
+	padding: 0;
+	background-color: #F2EDE7;
+}
+
+.wrapper {
+  	height: 650px;
+	width: 1200px;
+	margin: 0 auto;
+  	background-image: url("image/vector.svg");
+  	background-repeat: no-repeat;
+	background-size: 830px;
+}
+
+.content {
+	display: flex;
+	gap: 340px;
+}
+
+.title {
+	white-space: nowrap;
+	font-family: William, serif;
+	font-size: 31px;
+	font-style: italic;
+	text-transform: uppercase;
+	text-align: right;
+	padding: 50px 0;
+}
+
+.photo{
+	margin-left: 55px;
+	margin-top: 70px;
+}
+
+.photo img{
+	border: #AF253B 10px double;
+	background-color: pink;
+}
+
+.section{
+ 	font-family: Merriweather, sans-serif;
+ 	font-size: 16px;
+ 	line-height: 35px;
+}
+
+.section ul {
+	list-style-type: circle;
+}
+
+.section ul li {
+	padding-left: 10px;
+}
+
+hr{
+	margin:5px 0;
+}
+
+.vector{
+	width: 800px;
+	height: 800px;
+}
+
+.footer{
+	display: flex;
+	width: 1200px;
+	margin: 0 auto;
+	align-items: flex-start;
+	justify-content: space-between;
+	height: 300px;
+	position: relative;
+	background-image: url('./image/fish.svg');
+	background-repeat: no-repeat;
+	background-position: bottom right;
+	background-size: 600px;
+}
+
+.contacts{
+	flex-shrink: 0;
+	background-size: 50px 350px;
+	margin-left: 65px;
+ 	font-family: Merriweather, sans-serif;
+ 	font-size: 30px;
+ 	line-height: 70px;
+	list-style-type: none;
+}
+
+.contacts li a {
+	color: #AF253B;
+}
+
+.icon{
+	margin-right: 10px;
+	vertical-align: middle;
+}
