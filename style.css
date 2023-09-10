@@ -1,14 +1,14 @@
 body {
 	padding: 0;
-	background-color: #F2EDE7;
+	background-color: #f2ede7;
 }
 
 .wrapper {
-  	height: 650px;
+	height: 650px;
 	width: 1200px;
 	margin: 0 auto;
-  	background-image: url("image/vector.svg");
-  	background-repeat: no-repeat;
+	background-image: url("image/vector.svg");
+	background-repeat: no-repeat;
 	background-size: 830px;
 }
 
@@ -27,20 +27,20 @@ body {
 	padding: 50px 0;
 }
 
-.photo{
+.photo {
 	margin-left: 55px;
 	margin-top: 70px;
 }
 
-.photo img{
-	border: #AF253B 10px double;
+.photo img {
+	border: #af253b 10px double;
 	background-color: pink;
 }
 
-.section{
- 	font-family: Merriweather, sans-serif;
- 	font-size: 16px;
- 	line-height: 35px;
+.section {
+	font-family: Merriweather, sans-serif;
+	font-size: 16px;
+	line-height: 35px;
 }
 
 .section ul {
@@ -51,16 +51,20 @@ body {
 	padding-left: 10px;
 }
 
-hr{
-	margin:5px 0;
+.section ul li:not(:last-child) {
+	border-bottom: 1px solid;
 }
 
-.vector{
+hr {
+	margin: 5px 0;
+}
+
+.vector {
 	width: 800px;
 	height: 800px;
 }
 
-.footer{
+.footer {
 	display: flex;
 	width: 1200px;
 	margin: 0 auto;
@@ -68,27 +72,27 @@ hr{
 	justify-content: space-between;
 	height: 300px;
 	position: relative;
-	background-image: url('./image/fish.svg');
+	background-image: url("./image/fish.svg");
 	background-repeat: no-repeat;
 	background-position: bottom right;
 	background-size: 600px;
 }
 
-.contacts{
+.contacts {
 	flex-shrink: 0;
 	background-size: 50px 350px;
 	margin-left: 65px;
- 	font-family: Merriweather, sans-serif;
- 	font-size: 30px;
- 	line-height: 70px;
+	font-family: Merriweather, sans-serif;
+	font-size: 30px;
+	line-height: 70px;
 	list-style-type: none;
 }
 
 .contacts li a {
-	color: #AF253B;
+	color: #af253b;
 }
 
-.icon{
+.icon {
 	margin-right: 10px;
 	vertical-align: middle;
 }
